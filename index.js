@@ -71,6 +71,6 @@ app.get("/search", async (req,res) =>{
     }
     res.json(data)
 })
-app.listen(3000,() => {
+app.listen(PORT,() => {
     console.log("Listening....")
 })
